@@ -6,7 +6,7 @@ data "aws_ami" "example" {
     values = ["Centos"]
   }
 
-  owners = ["self"]
+  owners = ["752442278108"]
 }
 
 output "ami_id" {
