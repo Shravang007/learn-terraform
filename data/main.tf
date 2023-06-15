@@ -1,4 +1,4 @@
-data "aws_ami" "example" {
+data "aws_ami" "workstation" {
   most_recent = true
 
   filter {
