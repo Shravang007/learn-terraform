@@ -10,5 +10,5 @@ data "aws_ami" "workstation" {
 }
 
 output "ami_id" {
-  value = data.aws_ami.example.id
+  value = data.aws_ami.workstation.id
 }
