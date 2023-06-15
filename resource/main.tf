@@ -20,12 +20,12 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "Test" {
   ami           = "ami-03265a0778a880afb"  # Update with the desired AMI ID
   instance_type = "t2.micro"
 
   tags = {
-    Name = "example-instance"
+    Name = "Test"
   }
 }
 
