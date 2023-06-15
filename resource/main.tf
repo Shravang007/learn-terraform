@@ -21,7 +21,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0b5a2b5b8f2be4ec2"  # Update with the desired AMI ID
+  ami           = "ami-03265a0778a880afb"  # Update with the desired AMI ID
   instance_type = "t2.micro"
 
   tags = {
